@@ -95,5 +95,11 @@ Page({
     this.setData({
       scrollLeft: this.data.scrollLeft + 10
     })
+  },
+
+  toDetails: function(){
+    wx.navigateTo({
+      url: '../book_details/book_details',
+    })
   }
 })

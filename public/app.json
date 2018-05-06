@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/library/library",
+    "pages/me/me"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#555555",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页"
+    }, {
+      "pagePath": "pages/library/library",
+      "text": "图书馆"
+    }, {
+      "pagePath": "pages/me/me",
+      "text": "我"
+    }]
+  }
+}

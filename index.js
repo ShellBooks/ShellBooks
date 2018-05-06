@@ -26,7 +26,7 @@ app.listen(3000, function(){
 // 	host: 'localhost',
 // 	port: 3308,
 // 	user: 'root',
-// 	password: 'ZUInfs981',
+// 	password: '',
 // 	database: 'library'
 // });
 

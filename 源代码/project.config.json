@@ -1,0 +1,18 @@
+{
+	"client": "./client",
+	"svr": "./server",
+	"miniprogramRoot": "./client",
+	"qcloudRoot": "./server",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wx35ebf449c849bc9e",
+	"projectname": "ShellBooksWafer",
+	"libVersion": "2.1.1",
+	"compileType": "miniprogram",
+	"condition": {}
+}

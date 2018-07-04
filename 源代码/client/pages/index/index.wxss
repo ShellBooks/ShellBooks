@@ -1,0 +1,110 @@
+/* pages/library/library.wxss */   
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.title{
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.arrow{
+  width: 30rpx;
+  height: 30rpx;
+  border-top: 4rpx solid #999; 
+  border-right: 4rpx solid #999; 
+  /* position: absolute; */
+  float: right;
+  margin-right: 30rpx; 
+  margin-top: 20rpx;
+  transform: rotate(45deg);
+}
+
+.scroll-view{
+  height: 500rpx;
+  /* background: #999; */
+  width: 100%;
+  white-space: nowrap; 
+}
+
+.scroll-view view{
+  height: 100%;
+  width: 40%;
+  display: inline-block;
+}
+
+.scroll-view view image{
+  width: 90%;
+  height: 78%;
+  margin: 0 auto;
+  display: block;
+}
+
+.scroll-view view text{
+  display: block;
+  font-size: 30rpx;
+  width: 100%;
+  text-align: center;
+}
+
+.search input{
+  width: 90%;
+  display: inline-block;
+}
+
+.search icon{
+  display: inline-block;
+}
+
+.shell-cancel{
+  color: #000;
+}
+.books{
+  margin: 20rpx 0 20rpx 0;
+  padding: 0 20rpx 30rpx 20rpx;
+  box-shadow: 0 0 0 1px #eee,
+    0 1px 2px 1px #efefef;
+}
+.index_text{
+  display: block;
+  overflow: hidden;   
+  font-weight: 600;
+  white-space: nowrap;  /**表示文本不换行*/
+  text-overflow: ellipsis;    /**表示省略*/
+}
+.index_img{
+  box-shadow: 0 0 0 1px #eee,
+    0 1px 2px 1px #efefef;
+  border-radius: 8rpx;
+}
+#author{
+  color: #444444;
+  font-weight: normal;
+}
+#weui_search_bg{
+  background: #fff;
+  padding: 8px 20px;
+  border: none;
+  font-size: 34rpx;
+  box-shadow: 0 0 0 1px #eee,
+    0 1px 2px 1px #efefef; 
+}
+#weui_search_kuang{
+  border-radius: 999px;
+  /* box-shadow: 0 0 0 1px #eee,
+    0 1px 2px 1px #efefef; */
+  background: #ebebeb;
+  border: none;
+}
+#bookname{
+  margin-top: 20rpx;
+}
+#weui_search_label{
+  border-radius: 999px;
+  background: #eee;
+  font-size: 34rpx;
+}
+

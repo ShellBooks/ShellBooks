@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我",
+  "usingComponents": {
+    "item": "../../components/item/item",
+    "line": "../../components/line/line"
+  }
+}

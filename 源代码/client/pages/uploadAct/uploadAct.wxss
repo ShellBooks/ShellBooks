@@ -1,0 +1,186 @@
+/* pages/uploadAct/uploadAct.wxss */
+/* .active_item{
+  width: 100%;
+  height: 120rpx;
+  padding: 20rpx 0;
+  font-size: 40rpx;
+}
+
+ .active_item input{
+  width: 70%;
+  height: 96%;
+  border: 1px solid #aaa;
+  display: block;
+}
+.active_item textarea{
+  border: 1px solid #aaa;
+}
+.active_item text{
+  width: 20%;
+  height: 100%;
+  line-height: 80rpx;
+}  */
+.active_title{
+  width: 92%;
+  background: #fff;
+  text-align: center;
+  padding: 10rpx;
+  margin: 20rpx auto;
+  border-radius: 8rpx;
+  box-shadow: 0 0 0 1px #eee,
+    0 1px 2px 1px #efefef; 
+}
+.active_title text{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.active_title input{
+  height: 60rpx;
+  /* border: 1px solid #009ed8; */
+}
+.active_intro{
+  width: 92%;
+  background: #fff;
+  text-align: center;
+  padding: 10rpx;
+  margin: 20rpx auto;
+  border-radius: 8rpx;
+  box-shadow: 0 0 0 1px #eee,
+    0 1px 2px 1px #efefef; 
+}
+.active_intro text{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.active_intro textarea{
+  width: 92%;
+  margin: 0 auto;
+  height: 150rpx;
+  /* border: 1px solid #aaa; */
+}
+.active_photo{
+  width: 92%;
+  height: 420rpx;
+  background: #fff;
+  text-align: center;
+  padding: 10rpx;
+  margin: 20rpx auto;
+  border-radius: 8rpx;
+  box-shadow: 0 0 0 1px #eee,
+    0 1px 2px 1px #efefef; 
+}
+.active_upload text{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.isUpload text{
+  font-size: 26rpx;
+  color: #444;
+  font-weight: 300;
+}
+.arrow{
+  width: 30rpx;
+  height: 30rpx;
+  border-top: 4rpx solid #999; 
+  border-right: 4rpx solid #999; 
+  /* position: absolute; */
+  float: right;
+  margin-right: 30rpx; 
+  margin-top: 25rpx;
+  transform: rotate(45deg);
+} 
+.preview_img{
+  width: 100%;
+  height: 300rpx;
+}
+.preview_img image{
+  width: 100%;
+  height: 100%;
+}
+.upload_book_btn::after{
+  border: none;
+}
+.bottom_btn{
+  position: relative;
+  top: 50rpx;
+  width: 650rpx;
+  height: 100rpx;
+  margin: 0 auto;
+  text-align: center;
+  background: #009ed8;
+  box-shadow: 2px 6px 10px 2px #a2d5e8; /* 水平，垂直，扩散面积，延展距离，颜色 */
+}
+.btn_text{
+  color: #fff;
+  font-size: 36rpx;
+  line-height: 100rpx;
+}
+.btn_wrap{
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  height: 200rpx;
+}
+
+/* navbar 下方滑块 */
+.shell-navbar_slider{
+  background: #1a7bae;
+  width: 50rpx; 
+  height: 2px;
+  bottom: 10rpx;
+  border: 0.5px solid #1a7bae;
+  border-radius: 999px; 
+}
+/* navbar 选中 item  */
+.shell-bar_item_on{
+   color: #1a7bae !important; 
+}
+/* navbar */
+#weui_navbar_design{
+  position: fixed;
+  top: 0;
+  background: #fff;
+  border-bottom: 0px;
+  box-shadow: 0 0 0 1px #eee,
+    0 1px 2px 1px #efefef; 
+}
+/* navbar 文字 */
+#weui_navbar_title_design{
+  font-weight: bold;
+  font-size: 30rpx; 
+}
+.btn_close{
+  position: relative;
+  top: -390rpx;
+  height: 24rpx;
+  width: 24rpx;
+  float: right;
+  margin-right: 10rpx;
+}
+.act_item{
+  margin: 20rpx 20rpx;
+  padding: 10rpx 10rpx;
+  box-shadow: 0 0 0 1px #eee,
+    0 1px 2px 1px #efefef;
+  border-radius: 8rpx;
+}
+.act_image{
+  width: 100%;
+  height: 300rpx;
+  box-shadow: 0 0 0 1px #eee,
+    0 1px 2px 1px #efefef;
+  border-radius: 8rpx;
+}
+.act_item text{
+  display: block;
+}
+.act_title{
+  font-weight: bold;
+  font-size: 30rpx;
+}
+.act_intro{
+  font-size: 26rpx;
+  overflow: hidden;   
+  white-space: nowrap;  /**表示文本不换行*/
+  text-overflow: ellipsis;    /**表示省略*/
+}

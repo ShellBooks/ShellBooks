@@ -1,0 +1,16 @@
+/**app.wxss**/
+@import "weui.wxss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+} 
+.no_data{
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 100rpx auto;
+}

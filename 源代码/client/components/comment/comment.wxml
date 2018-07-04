@@ -1,0 +1,15 @@
+<!--components/comment/comment.wxml-->
+<view class='comment'>
+  <view class='avatar'>
+    <image  class="userinfo-avatar"
+            src="{{comment.avatar_url}}"
+            background-size="cover"
+    ></image>
+  </view>
+  <view class='main'>
+    <text class='nickname'>{{comment.nickname}}</text>
+    <rate rate="{{comment.rate}}"></rate>
+    <text class='date'>{{comment.date}}</text>
+    <text class='content'>{{comment.content}}</text>
+  </view>
+</view>

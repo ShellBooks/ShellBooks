@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "分享图书",
+  "usingComponents": {
+    "line": "../../components/line/line"
+  }
+}
